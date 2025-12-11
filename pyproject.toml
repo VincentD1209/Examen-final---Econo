@@ -1,6 +1,9 @@
 [tool.poetry]
 package-mode = false
 
+[tool.poetry.group.dev.dependencies]
+xlrd = "^2.0.2"
+
 [project]
 name = "sandbox"
 version = "0.1.0"
